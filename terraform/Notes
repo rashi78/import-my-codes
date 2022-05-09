@@ -1,6 +1,6 @@
 State File in TF: 
 
-1. There are three types of states in terraform code application process :
+There are three types of states in terraform code application process :
     Desired - Known - Actual  
 
     a. Desired state - what we want to be changed next
