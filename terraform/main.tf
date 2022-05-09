@@ -39,14 +39,3 @@ resource "aws_s3_bucket_versioning" "bucket-versioning2" {
     }
 }
 
-
-
-
-output "s3-bucket-info" {
-    value = aws_s3_bucket_versioning.bucket-versioning
-}
-
-output "s3-bucket-info" {
-    value = aws_s3_bucket_versioning.bucket-versioning2
-}
-
