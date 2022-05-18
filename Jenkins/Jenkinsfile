@@ -1,0 +1,35 @@
+//http://localhost:8080/pipeline-model-converter/validate
+
+pipeline {
+	agent any
+	stages {
+		stage ('Build'){
+			steps { echo “Build”}
+			}
+		}
+
+	stages {
+		stage (‘Test’){
+			steps { echo “Test”}
+			}
+		}
+
+	stages {
+		stage ('Integration'){
+			steps { echo “Integration Test”}
+			}
+		}
+}
+
+Post {
+	always {
+		echo “I always run”
+		}
+	success {
+		echo “Only on success”
+		}
+	failure{
+		echo “Only on failure”
+		}
+
+}
