@@ -20,23 +20,8 @@ pipeline
 				echo 'Test'
 				}
 		}
+	}
+}
+
 		
-	}
-}
 
-post
-{
-	always
-	{
-		echo "Always Printed"
-
-	}
-	success
-	{
-		echo "printed on Success"
-	}
-	failure
-	{
-		echo "printed on Failure"
-	}
-}
