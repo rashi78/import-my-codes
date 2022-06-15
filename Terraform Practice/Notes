@@ -1,0 +1,12 @@
+State File in TF: 
+
+There are three types of states in terraform code application process :
+    Desired - Known - Actual  
+
+    a. Desired state - what we want to be changed next
+    b. Known State - what is present in the latest TFstate file eg. 2 days back TFstate file config 
+    c. Actual state - what is present in the AWS console actually created and if someone has made the changes from console without using TF apply 
+
+Known -> checks in the Actual state to see if we re up to date with the desired state -- (Refreshing State...)
+
+
