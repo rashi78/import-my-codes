@@ -1,2 +1,0 @@
-print ("\t Twinkle Twinkle Little Star, \n \t \t How I wonder what you are! \n \t Up above the world so high, \n \t\t Like a diamond in the sky! \n \t " )
-#, "How I wonder what you are!", end = '\n \t')

@@ -1,6 +1,0 @@
-import datetime
-from time import sleep
-init_time = datetime.datetime.now()
-print(init_time)
-sleep(2)
-print(time_afer_coding)
